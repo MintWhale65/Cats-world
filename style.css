@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+h1{
+    padding: 5px;
+}
+
+.text{
+    margin: 0;
+    padding-bottom: 20px;
+
+
+
+
+
+}
+header {
+    background-image: url("https://avatars.mds.yandex.net/i?id=e07eeaf0219011a253179321fa7213e4d032f6da-5233014-images-thumbs&n=13");
+    height: 400px; /*высота блока*/
+    background-color: rgb(201, 226, 201); /*цвет фона*/
+    color: hsl(234, 39%, 56%); /*цвет текста*/
+    text-align: center; /*выравнивание текста*/
+    font-size: 39px ; /*размер текста*/
+    background-size: contain;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 5px 20px rgb(88, 139, 139);
+}
+
+
+main {
+    height: 100%; /*высота блока*/
+    background-color: rgb(224, 224, 159); /*цвет фона*/
+    color: rgb(206, 123, 68); /*цвет текста*/
+    text-align: center; /*выравнивание текста*/
+    font-size: 39px ; /*размер текста*/
+    padding-bottom: 10px;
+    background-image: url("https://avatars.mds.yandex.net/i?id=e07eeaf0219011a253179321fa7213e4d032f6da-5233014-images-thumbs&n=13");
+     background-size: 35%;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     display: flex;
+}
+.left {
+width: 50%;
+
+}
+
+.right {
+    width: 50%;
+    
+    }
+
+
+     footer {
+    height: 300px; /*высота блока*/
+    background-color: rgb(164, 238, 232); /*цвет фона*/
+    color: rgb(89, 88, 182); /*цвет текста*/
+    text-align: left; /*выравнивание текста*/
+    font-size: 39px ; /*размер текста*/
+    background-image: url("https://avatars.mds.yandex.net/i?id=e07eeaf0219011a253179321fa7213e4d032f6da-5233014-images-thumbs&n=13");
+    background-size: 35%;
+    padding-top: 20px;
+}
+
+.social img{
+    width: 100px;
+    padding-left: 10px;
+}
+.social{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
